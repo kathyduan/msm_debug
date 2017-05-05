@@ -20,7 +20,7 @@
   </thead>
 
   <tbody>
-    <% @movies.each do |movie| %>
+    <% @movie.each do |movie| %>
       <tr>
         <td><img src="<%= movie.image_url %>" width="80"></td>
         <td><%= movie.title %></td>
@@ -47,4 +47,3 @@
     <% end %>
   </tbody>
 </table>
-
